@@ -17,7 +17,7 @@ import { SigninComponent } from "./auth/signin.component";
 import { AuthService } from "./auth/auth.service";
 import { ErrorComponent } from "./errors/error.component";
 import { ErrorService } from "./errors/error.service";
-
+import { UserProfile } from './user-profile/user-profile.component';
 @NgModule({
     declarations: [
         AppComponent,
@@ -30,7 +30,8 @@ import { ErrorService } from "./errors/error.service";
         LogoutComponent,
         SignupComponent,
         SigninComponent,
-        ErrorComponent
+        ErrorComponent,
+        UserProfile
     ],
     imports: [
         BrowserModule,

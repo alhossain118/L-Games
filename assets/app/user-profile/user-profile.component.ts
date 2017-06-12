@@ -1,12 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MessageService } from '../messages/message.service';
 
 @Component({
     selector: 'user-profile',
-    templateUrl: './user.component.html',
+    templateUrl: './user.profile.component.html',
     providers: [MessageService]
 })
-export class UserProfile {
+export class UserProfile implements OnInit{
 
+    constructor(){};
+
+    ngOnInit(){
+
+    }
 
 }
